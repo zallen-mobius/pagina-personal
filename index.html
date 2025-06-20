@@ -1,21 +1,30 @@
 <!DOCTYPE html>
+<!-- MyWeb - index.html
+    Author: Ángel Adrián López Carranza (zallen-mobius)
+    Created: 2025-06-19
+    Notes: This file is designed to use BEM naming convention.
+-->
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title> MyWeb </title>
 </head>
-<body>
-    <header>
-        <h1> Bienvenido </h1>
+<body class="body" >
+    <header class="body__header" >
+        <h1 class="header__title" > Bienvenido </h1>
     </header>
-    <div>
+    <div class="body__content" >
         <p> Mi nombre es <i>Ángel López Carranza</i>, soy un desarrollador web mexicano y esta es la página web de muestra para mi portafolio de proyectos. </p>
         <p> Esta web va a ser un proyecto que irá evolucionando conforme yo vaya aprendiendo nuevas tecnologías, sientete libre de explorarla a tu gusto. Al pie de página te dejo mis datos de contacto por si te interesa <b>¡Gracias por visitar mi página!</b> </p>
     </div>
-    <footer>
+    <footer class="body__footer" >
         <h2> Contacto </h2>
-        <div>
+        <div class="footer__info" >
             Ángel Adrián López Carranza <br/>
             San Luis Potosí, S.L.P. México <br/>
             <a href="tel:+524442775289" >Tel: +52 444 277 5289 </a> <br/>

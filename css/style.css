@@ -1,0 +1,35 @@
+/* MyWeb - style.css 
+    Author: Ángel Adrián López Carranza
+    Created: 2025-06-19
+    Notes: This file is designed to use BEM naming convention.
+*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.body__header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+.header__title {
+    color: azure;
+    margin: 18px auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.body__content {
+    font-family: "Jost", sans-serif;
+}
+
+.body__footer {
+    font-family: "Inconsolata", monospace;
+}
+
+.footer__info {
+    padding-left: 18px;
+}
