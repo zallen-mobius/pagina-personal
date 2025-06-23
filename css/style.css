@@ -9,6 +9,12 @@ body, html {
     padding: 0;
 }
 
+.header__title {
+    color: azure;
+    margin: 18px auto;
+    font-family: "Open Sans", sans-serif;
+}
+
 .body__header {
     margin: 0;
     padding: 0;
@@ -16,20 +22,21 @@ body, html {
     background-color: cornflowerblue;
 }
 
-.header__title {
-    color: azure;
-    margin: 18px auto;
-    font-family: "Open Sans", sans-serif;
-}
-
 .body__content {
+    margin: 36px;
+    padding: 24px;
+    text-align: center;
     font-family: "Jost", sans-serif;
 }
 
 .body__footer {
+    padding: 18px;
+    color: azure;
+    text-decoration: none;
+    background-color: cornflowerblue;
     font-family: "Inconsolata", monospace;
 }
 
-.footer__info {
-    padding-left: 18px;
+.footer__link {
+    color: azure;
 }
